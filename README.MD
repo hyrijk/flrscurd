@@ -11,7 +11,7 @@ python app.py
   - 安装 gunicorn
   ```
   pip install gunicorn
-  ``
+  ```
   - 运行
   ```
   gunicorn app:app -b 0.0.0.0:5000 -D
